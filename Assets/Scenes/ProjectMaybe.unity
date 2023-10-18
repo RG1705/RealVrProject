@@ -325,7 +325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7767542525902026591, guid: 938102761ce819a4cba420a2c3df56ff, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7767542525902026591, guid: 938102761ce819a4cba420a2c3df56ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -499,7 +499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 951795410199675439, guid: 687781874a3c00749a6779add4716945, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 951795410199675439, guid: 687781874a3c00749a6779add4716945, type: 3}
       propertyPath: m_LocalPosition.x
@@ -543,92 +543,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 687781874a3c00749a6779add4716945, type: 3}
---- !u!1 &1180392536 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 951795410199675432, guid: 687781874a3c00749a6779add4716945, type: 3}
+--- !u!114 &1180392538 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1180392538, guid: 687781874a3c00749a6779add4716945, type: 3}
   m_PrefabInstance: {fileID: 1180392535}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1180392537 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 951795410199675438, guid: 687781874a3c00749a6779add4716945, type: 3}
-  m_PrefabInstance: {fileID: 1180392535}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180392536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1180392538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180392536}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
-  m_DelayTime: 0
---- !u!114 &1180392539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180392536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 1180392540}
-  m_TurnAmount: 45
-  m_DebounceTime: 0.5
-  m_EnableTurnLeftRight: 1
-  m_EnableTurnAround: 1
-  m_DelayTime: 0
-  m_LeftHandSnapTurnAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Left Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 7b642b3c-0bd3-4e7f-902d-a01fb4768688
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -7374733323251553461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_RightHandSnapTurnAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Right Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 474c0f6e-1137-4f7e-9a6b-9c1b0636410e
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &1180392540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180392536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Timeout: 10
-  m_XROrigin: {fileID: 1180392537}
 --- !u!1001 &1565181486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -642,7 +567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4368722673171995218, guid: 311babffdc2e43c4eab97f2ada187a1c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4368722673171995218, guid: 311babffdc2e43c4eab97f2ada187a1c, type: 3}
       propertyPath: m_LocalPosition.x
