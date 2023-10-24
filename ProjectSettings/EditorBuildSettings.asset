@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/Scenes/VR SampleScene.unity
-    guid: 4ffe126019470d64fa26d78ab4596088
-  - enabled: 1
     path: Assets/Scenes/ProjectMaybe.unity
     guid: 9354c8499b50fc0409c948b2bb8f8faf
+  - enabled: 1
+    path: Assets/Scenes/VR SampleScene.unity
+    guid: 4ffe126019470d64fa26d78ab4596088
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 36054d7845161374e9f27a57a7a92f47, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9e552ae26a1ca164fb822425b25e0577, type: 2}
