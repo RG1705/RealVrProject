@@ -14,6 +14,7 @@ public class ResumeTimelineOnClick : MonoBehaviour
 
     public void ResumeTimeline()
     {
+        Debug.Log("clicked");
         director.Play();
     }
 }
