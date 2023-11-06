@@ -9,6 +9,6 @@ public class Gotoxavierscene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene("VR Sample Scene");
+        SceneManager.LoadScene("VR SampleScene");
     }
 }
